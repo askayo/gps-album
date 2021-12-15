@@ -4,20 +4,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <h1>
+       48°51'25.5"N 2°21'19.0"E
+   </h1>
+
+      <p>
+          Veuillez trouver le nom du profil instagram.
+      </p>
+<p>
+    Astuce : Il faudra le traduire en anglais suivis de 2021.
+</p>
     </div>
   );
 }
